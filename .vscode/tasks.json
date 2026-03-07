@@ -51,6 +51,7 @@
                 "/c",
                 "del",
                 "/q",
+                "/s",
                 "*.exe"
             ],
             "presentation": {
