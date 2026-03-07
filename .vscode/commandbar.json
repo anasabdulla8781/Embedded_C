@@ -1,0 +1,31 @@
+{
+  "skipTerminateQuickPick": true,
+  "skipSwitchToOutput": false,
+  "skipErrorMessage": true,
+  "commands": [
+    {
+      "text": "🔨 Build",
+      "tooltip": "Compile C program",
+      "commandType": "palette",
+      "command": "workbench.action.tasks.runTask|Build C Program"
+    },
+    {
+      "text": "▶ Run",
+      "tooltip": "Run C program",
+      "commandType": "palette",
+      "command": "workbench.action.tasks.runTask|Run C Program"
+    },
+    {
+      "text": "⚡ Build & Run",
+      "tooltip": "Compile and run program",
+      "commandType": "palette",
+      "command": "workbench.action.tasks.runTask|Build & Run C Program"
+    },
+    {
+      "text": "🧹 Clean",
+      "tooltip": "Remove all exe files",
+      "commandType": "palette",
+      "command": "workbench.action.tasks.runTask|Clean EXE Files"
+    }
+  ]
+}
