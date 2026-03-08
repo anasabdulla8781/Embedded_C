@@ -17,7 +17,10 @@ int main(void)
     int *p[5] = {&a,&b,&c,&d,&e};
 
     for(int i=0;i<5;i++)
-    printf("%d ", *p[i]);
+    printf("%d\n ", *p[i]);
+    printf("%p\n ", *p);
+    printf("%p\n ", *(p+1));
+    printf("%p\n ", *(p[1]));
     printf("\n");
     printf("\n");
 
@@ -35,6 +38,7 @@ int main(void)
     int arr3[5]={10,20,30,40,50};
     int (*p3)[5] = &arr3;
 
+    printf("%d\n", *(*p3));
     printf("%d\n", (*p3)[3]);
     printf("\n");
 
