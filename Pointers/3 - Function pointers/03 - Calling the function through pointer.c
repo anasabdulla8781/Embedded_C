@@ -37,5 +37,9 @@ int main(void)
 
     /// Part 4
     printf("%p\n", *fp2);       /// This will print the address of the function since its pointing to that address 
+    printf("%p\n", **fp2);
+    
+    /// Part 5
+    printf("%p\n", fp2);        /// whats there in the pointer
     return 0;
 }
